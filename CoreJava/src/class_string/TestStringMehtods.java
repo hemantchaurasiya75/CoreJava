@@ -127,5 +127,18 @@ public class TestStringMehtods {
 //		System.out.println(str);
 		
 		
+		
+		
+		//String s = "India"; // content inside "" called string literal
+		
+		//s.concat("is great");
+		
+		
+		String sObj1 = new String("India");
+		
+		
+		
+		// India 
+		
 	}
 }
