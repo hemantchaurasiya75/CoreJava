@@ -21,7 +21,7 @@ public class TestListSort {
 		Employee e4 = new Employee("Dhiru", 1, 30000);
 		
 		Employee e5 = new Employee("Adithya", 5, 4000);
-		Employee e6 = new Employee("Binod", 3, 1000);
+		Employee e6 = new Employee("David", 3, 1000);
 		
 		
 		List<Employee> list = new ArrayList<Employee>();
@@ -34,13 +34,15 @@ public class TestListSort {
 		list.add(e5);
 		list.add(e6);
 		
-		System.out.println(list);
+		//System.out.println(list);
 		
-		list.sort(null);
+		//list.sort(null);
 		
-		System.out.println(list);
+		//System.out.println(list);
 		
-		list.sort(new EmployeeIDComprator());
+		list.sort(new EmployeeIDComprator().thenComparing(new EmployeeSalaryComprator()));
+		
+		
 		
 		System.out.println(list);
 		
