@@ -52,7 +52,7 @@ public class TestMain {
 		
 		// hashCode & euqal contract
 		/**
-		 * in collection - 
+		 * in collection (hashing based collection)- 
 		 * case 1: hashCode implemented, euqals not implemented
 		 * 		call hashcode 
 		 * 			if not same : eqaual method not called
