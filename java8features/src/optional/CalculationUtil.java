@@ -13,7 +13,7 @@ public class CalculationUtil {
 	
 	public static Optional<Integer> rectuangularArea(int length, int width) {
 		if(length == 0 || width == 0)
-			return null;
+			return Optional.empty();
 		
 		return Optional.of(length * width);
 	}
