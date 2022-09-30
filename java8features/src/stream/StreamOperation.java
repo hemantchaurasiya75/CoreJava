@@ -24,7 +24,7 @@ public class StreamOperation {
 		//System.out.println(list.stream().count());
 		
 		//List<String> li = list.stream().distinct().collect(Collectors.toList());
-		//li.forEach(System.out::println);
+		//li.forEach(Systsem.out::println);
 		
 		
 		list = list.stream().filter(s -> !s.isEmpty()).sorted().collect(Collectors.toList());
